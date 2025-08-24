@@ -279,6 +279,14 @@ footer {
 
 @media (max-width: 576px) {
 
+
+  .container,
+.card-principal,
+h3,
+p {
+  margin: 0px;
+}
+
   .card-principal h1 {
     text-align: center;
   }
@@ -312,7 +320,7 @@ footer {
 
   .description-img img {
     width: 100%;        
-    max-width: 600px;  
+    max-width: 300px;  
     height: 100%;       
     display: block;
     margin: 0 auto;     
