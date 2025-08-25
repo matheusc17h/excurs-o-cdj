@@ -361,10 +361,11 @@ footer {
     width: 30px;
     height: 35px;
     position: relative; /* ativa deslocamento */
-    left: -1px; /* ajusta para a esquerda */
+    left: 40px; /* ajusta para a esquerda */
     padding-right: 0; /* remove padding anterior */
   }
 }
+
 
 
 
