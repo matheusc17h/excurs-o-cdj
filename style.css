@@ -351,7 +351,7 @@ footer {
     margin: 0 5px;
   }
 
-  #prev-button img
+ #prev-button img
    {
     width: 30px;
     height: 35px;
@@ -361,10 +361,11 @@ footer {
     width: 30px;
     height: 35px;
     position: relative; /* ativa deslocamento */
-    left: -50px; /* ajusta para a esquerda */
+    left: -1px; /* ajusta para a esquerda */
     padding-right: 0; /* remove padding anterior */
   }
 }
+
 
 
 
