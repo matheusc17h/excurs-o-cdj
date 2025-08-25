@@ -267,13 +267,19 @@ footer {
 }
 
 @media (max-width: 576px) {
+  
+  body {
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
   .vacancy {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
-    margin: 10px;
+    margin: 0px;
   }
 
   .vacancy h2 {
@@ -296,6 +302,32 @@ footer {
     border-radius: 50px;
     cursor: pointer;
     font-size: 0.95rem;
+  }
+
+  .route {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  .route h3 {
+    margin: 0px;
+ 
+  }
+
+  .route li {
+    
+   margin-top: 10px;
+   margin-bottom: 10px;
+
+  }
+
+  .contact-phone {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
   }
 
   .container-carrossel {
@@ -340,13 +372,15 @@ footer {
     height: 35px;
     position: relative; 
     left: 15px; 
+    margin: 0px;
   }
 
   #next-button img {
     width: 30px;
     height: 35px;
     position: relative; 
-    left: -17px; 
-    padding-right: 0; 
+    left: -5px; 
+    margin: 0px;
+ 
   }
 }
