@@ -270,7 +270,29 @@ footer {
   
   body {
     box-sizing: border-box;
+    overflow-x: hidden;
     width: 100%;
+  }
+
+  .contact-phone {
+    display: block;
+  }
+
+  .container {
+    margin: 0px;
+  }
+
+  figcaption {
+    margin-top: 10px;
+  }
+
+  .card-principal {
+    padding: 0px;
+  }
+
+  .description-img img {
+
+    width: 80%;
   }
   
   .vacancy {
@@ -382,5 +404,9 @@ footer {
     left: -5px; 
     margin: 0px;
  
+  }
+
+  .footer {
+    width: 100%;
   }
 }
