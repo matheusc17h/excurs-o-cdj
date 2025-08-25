@@ -45,6 +45,7 @@ p {
   font-size: 16px;
   text-align: center;
   margin: 10px;
+  margin-bottom: 20px;
 }
 
 .carrossel {
@@ -58,14 +59,23 @@ p {
 
 .description-img img {
   max-width: 100%;
-  height: 400px;
-  width: 100%;
+  height: 100%;
+  width: 400px;
   display: block;
   margin: 0 auto;
+  gap: 20px;
+}
+
+figcaption {
+ margin-top: 5px;
 }
 
 .infos {
   text-align: center;
+}
+
+.infos h1 {
+  margin-top: 40px;
 }
 
 .route {
@@ -247,18 +257,25 @@ footer {
 
   .description-img img {
     max-width: 100%;
-    height: 200px;
+    height: 150px;
     width: 100%;
     display: block;
     margin: 0 auto;
+    gap: 40px;
+    
   }
 
   .carrosel {
     width: 100%;
+    gap: 10px;
   }
 
   .carrosel-img {
     width: 100%;
+  }
+
+  figcaption {
+    margin-top: 10px;
   }
 
   .vacancy h2 {
@@ -283,6 +300,7 @@ footer {
 
   figcaption {
     margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .card-principal {
@@ -294,14 +312,22 @@ footer {
     margin-bottom: 10px;
   }
 
+.carrossel {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.description-img img {
+  width: 100%;
+}
+
   .infos h1 {
     margin-top: 10px;
     margin-bottom: 10px;
   }
 
-  .description-img img {
-    width: 80%;
-  }
+
 
   .vacancy {
     display: flex;
