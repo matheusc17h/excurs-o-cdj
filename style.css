@@ -351,16 +351,21 @@ footer {
     margin: 0 5px;
   }
 
-  #prev-button img,
-  #next-button img {
-    width: 35px;
+  #prev-button img
+   {
+    width: 30px;
     height: 35px;
   }
 
- #next-button img{
-      margin-right: 20px;
-    }
+    #next-button img {
+    width: 30px;
+    height: 35px;
+    position: relative; /* ativa deslocamento */
+    left: -50px; /* ajusta para a esquerda */
+    padding-right: 0; /* remove padding anterior */
+  }
 }
+
 
 
 
