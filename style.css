@@ -84,6 +84,7 @@ figcaption {
 .infos p {
   margin-top: 40px;
   align-items: center;
+  text-align: center;
 }
 
 .route {
@@ -95,6 +96,10 @@ figcaption {
 .route h3 {
   text-align: center;
   margin: 10px;
+}
+
+.route li {
+  list-style: none;
 }
 
 i {
